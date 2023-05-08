@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/splashFragment">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.mangalib.presentation.ui.activity.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.mangalib.presentation.ui.activity.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/openFragment"
+        android:name="com.example.mangalib.presentation.ui.fragment.open.OpenFragment"
+        android:label="fragment_open"
+        tools:layout="@layout/fragment_open" />
+
+    <fragment
+        android:id="@+id/allMangaFragment"
+        android:name="com.example.mangalib.presentation.ui.fragment.manga.AllMangaFragment"
+        android:label="fragment_all_manga"
+        tools:layout="@layout/fragment_all_manga" />
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.mangalib.presentation.ui.fragment.splash.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_splashFragment_to_navigation_home"
+            app:destination="@id/navigation_home"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+</navigation>
