@@ -1,8 +1,8 @@
 package com.example.mangalib.presentation.ui.activity.ui.home
 
 import com.example.mangalib.domain.model.ResultModel
-import com.example.mangalib.domain.model.usecase.GetMangaSearchUseCase
-import com.example.mangalib.domain.model.utils.UiState
+import com.example.mangalib.domain.usecase.GetMangaSearchUseCase
+import com.example.mangalib.domain.utils.UiState
 import com.example.mangalib.presentation.ui.base.BaseViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow

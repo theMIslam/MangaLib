@@ -2,9 +2,9 @@ package com.example.mangalib.presentation.ui.fragment.open
 
 import androidx.lifecycle.viewModelScope
 import com.example.mangalib.domain.model.ResultModel
-import com.example.mangalib.domain.model.usecase.GetAllMangaIdUseCase
-import com.example.mangalib.domain.model.utils.Resourse
-import com.example.mangalib.domain.model.utils.UiState
+import com.example.mangalib.domain.usecase.GetAllMangaIdUseCase
+import com.example.mangalib.domain.utils.Resourse
+import com.example.mangalib.domain.utils.UiState
 import com.example.mangalib.presentation.ui.base.BaseViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow

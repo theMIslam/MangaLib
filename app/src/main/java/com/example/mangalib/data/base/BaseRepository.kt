@@ -1,6 +1,6 @@
 package com.example.mangalib.data.base
 
-import com.example.mangalib.domain.model.utils.Resourse
+import com.example.mangalib.domain.utils.Resourse
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.flowOn

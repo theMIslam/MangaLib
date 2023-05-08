@@ -1,7 +1,7 @@
 package com.example.mangalib.di
 
 import com.example.mangalib.data.remote.model.ApiService
-import com.example.mangalib.domain.model.utils.Constant.BASE_URL
+import com.example.mangalib.domain.utils.Constant.BASE_URL
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import org.koin.dsl.module

@@ -1,4 +1,4 @@
-package com.example.mangalib.domain.model.utils
+package com.example.mangalib.domain.utils
 
 import android.widget.ImageView
 import com.bumptech.glide.Glide

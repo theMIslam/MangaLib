@@ -1,7 +1,7 @@
-package com.example.mangalib.domain.model.repository
+package com.example.mangalib.domain.repository
 
 import com.example.mangalib.domain.model.ResultModel
-import com.example.mangalib.domain.model.utils.Resourse
+import com.example.mangalib.domain.utils.Resourse
 import kotlinx.coroutines.flow.Flow
 
 interface MangaRepository {

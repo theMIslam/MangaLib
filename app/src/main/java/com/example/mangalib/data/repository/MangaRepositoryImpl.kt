@@ -4,8 +4,8 @@ import com.example.mangalib.data.base.BaseRepository
 import com.example.mangalib.data.mapper.toManga
 import com.example.mangalib.data.remote.model.ApiService
 import com.example.mangalib.domain.model.ResultModel
-import com.example.mangalib.domain.model.repository.MangaRepository
-import com.example.mangalib.domain.model.utils.Resourse
+import com.example.mangalib.domain.repository.MangaRepository
+import com.example.mangalib.domain.utils.Resourse
 import kotlinx.coroutines.flow.Flow
 
 class MangaRepositoryImpl(val api: ApiService) : MangaRepository, BaseRepository() {

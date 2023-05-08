@@ -1,6 +1,6 @@
-package com.example.mangalib.domain.model.usecase
+package com.example.mangalib.domain.usecase
 
-import com.example.mangalib.domain.model.repository.MangaRepository
+import com.example.mangalib.domain.repository.MangaRepository
 
 class GetAllTopMangaUseCase(val repository: MangaRepository) {
     fun getAllMangaTop() = repository.getAllTopManga()

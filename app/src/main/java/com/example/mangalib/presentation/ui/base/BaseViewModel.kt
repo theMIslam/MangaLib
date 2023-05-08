@@ -2,8 +2,8 @@ package com.example.mangalib.presentation.ui.base
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.mangalib.domain.model.utils.Resourse
-import com.example.mangalib.domain.model.utils.UiState
+import com.example.mangalib.domain.utils.Resourse
+import com.example.mangalib.domain.utils.UiState
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
